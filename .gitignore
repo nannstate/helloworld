@@ -1,4 +1,7 @@
 *.log
 *.txt~
 *.cpp~
+*.cpp.un~
+*.txt.un~
 .gitignore~
+..gitignore.un~

@@ -5,14 +5,17 @@ using namespace std;
 
 int main(){
 		
-	ifstream fin;
+	ifstream reader;
 	string word;
-	fin.open("hello.txt");
+	int i = 0;
+
+	reader.open("hello.txt");
 	cout << "************************************************************" << endl;
 	cout << endl;
 
-	while(fin >> word){
+	while(reader >> word){
 		cout << word << ' ';
+		i = i+1;
 	}
 	cout << endl;
 	cout << endl;
@@ -21,6 +24,7 @@ int main(){
 
 	cout << endl;
 	cout << "This text was read from a text file (hello.txt)" << endl;
+	cout << "Total words read is " << i << endl;
 	cout << endl;
 
 	return 0;
