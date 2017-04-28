@@ -10,12 +10,13 @@ int main(){
 	int i = 0;
 
 	reader.open("hello.txt");
+	cout << endl;
 	cout << "************************************************************" << endl;
 	cout << endl;
 
 	while(reader >> word){
 		cout << word << ' ';
-		i = i+1;
+		i++;
 	}
 	cout << endl;
 	cout << endl;
