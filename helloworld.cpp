@@ -19,14 +19,15 @@ int main(){
 		i++;
 	}
 	cout << endl;
+	cout << "This text was read from a text file (hello.txt)" << endl;
+	cout << "Total words read is " << i << endl;
 	cout << endl;
 	cout << endl;
 	cout << "************************************************************" << endl;
 
 	cout << endl;
-	cout << "This text was read from a text file (hello.txt)" << endl;
-	cout << "Total words read is " << i << endl;
 	cout << endl;
 
 	return 0;
 }
+
